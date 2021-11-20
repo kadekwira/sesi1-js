@@ -1,6 +1,11 @@
 const nama = "kadek wira";
-let hobi = "futsal";
-hobi= "ngoprek";
-console.log(hobi);
+
+function getNama(){
+    return nama;
+}
+
+console.log(getNama());
+
+
 //ctrl+shift+p
 
